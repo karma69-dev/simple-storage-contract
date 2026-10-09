@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generation": "0x2a1a51ff595a2464cc74700c6597124b116424f906ced290ee8c2d33af2aef17",
+  "multi": false,
+  "batch": false,
+  "deployments": [
+    {
+      "chain": 11155111,
+      "batch_id": null,
+      "operations": [
+        {
+          "id": {
+            "sequence": 0,
+            "index": 0
+          },
+          "fingerprint": "0x0d5b796ad82517d2d2cd3c7bb7db584b84813054bcfb694eb63211cefff5a717",
+          "rpc": "https://sepolia.infura.io/v3/14a542a977fa485e81222a6acad9fcd1"
+        }
+      ],
+      "attempts": [
+        {
+          "id": "0xb5f66ce1caf3250e9fcdeff2dbe38844018bf8b86c5958c467fef254b9209df0",
+          "members": [
+            {
+              "sequence": 0,
+              "index": 0
+            }
+          ],
+          "kind": {
+            "kind": "signed",
+            "request": null,
+            "payload": {
+              "payload": "0x02f9019f83aa36a72a8398968083c453308302559b8080b901456080604052348015600e575f5ffd5b506101298061001c5f395ff3fe6080604052348015600e575f5ffd5b50600436106030575f3560e01c806360fe47b11460345780636d4ce63c14604c575b5f5ffd5b604a60048036038101906046919060a9565b6066565b005b6052606f565b604051605d919060dc565b60405180910390f35b805f8190555050565b5f5f54905090565b5f5ffd5b5f819050919050565b608b81607b565b81146094575f5ffd5b50565b5f8135905060a3816084565b92915050565b5f6020828403121560bb5760ba6077565b5b5f60c6848285016097565b91505092915050565b60d681607b565b82525050565b5f60208201905060ed5f83018460cf565b9291505056fea26469706673582212205f7855dd5f4f0990602a608cb4c6947e707dfa345ef8f9920b9eaaa8a2f59ee864736f6c63430008250033c001a05002fd54b5bf634f623699d5bee450054dbfd0edc9e68f2d9e7c03a8c8c6f646a077b866057105c051f885c40ba4662f161b7596643a68bee1bb26be48ab268cdf",
+              "hash": "0x1c68eb036f0a8a175f5207533336fb05b285ac8ac7944ebfa644173f2d6df57f"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "data": {
+    "kind": "single",
+    "sequence": {
+      "transactions": [
+        {
+          "hash": "0x1c68eb036f0a8a175f5207533336fb05b285ac8ac7944ebfa644173f2d6df57f",
+          "transactionType": "CREATE",
+          "contractName": "SimpleStorage",
+          "contractAddress": "0x42821ce614e803d5c91b511aa3956c8892709c53",
+          "function": null,
+          "functionAbi": null,
+          "arguments": null,
+          "transaction": {
+            "from": "0x025c779c276cc1531a0985c3feedd0ca49d5e729",
+            "to": null,
+            "gas": "0x2559b",
+            "value": "0x0",
+            "input": "0x6080604052348015600e575f5ffd5b506101298061001c5f395ff3fe6080604052348015600e575f5ffd5b50600436106030575f3560e01c806360fe47b11460345780636d4ce63c14604c575b5f5ffd5b604a60048036038101906046919060a9565b6066565b005b6052606f565b604051605d919060dc565b60405180910390f35b805f8190555050565b5f5f54905090565b5f5ffd5b5f819050919050565b608b81607b565b81146094575f5ffd5b50565b5f8135905060a3816084565b92915050565b5f6020828403121560bb5760ba6077565b5b5f60c6848285016097565b91505092915050565b60d681607b565b82525050565b5f60208201905060ed5f83018460cf565b9291505056fea26469706673582212205f7855dd5f4f0990602a608cb4c6947e707dfa345ef8f9920b9eaaa8a2f59ee864736f6c63430008250033",
+            "nonce": "0x2a",
+            "chainId": "0xaa36a7"
+          },
+          "additionalContracts": [],
+          "isFixedGasLimit": false
+        }
+      ],
+      "receipts": [],
+      "libraries": [],
+      "pending": [],
+      "returns": {},
+      "timestamp": 1791329498353,
+      "chain": 11155111,
+      "commit": "34db1c8",
+      "recovery_generation": "0x2a1a51ff595a2464cc74700c6597124b116424f906ced290ee8c2d33af2aef17"
+    }
+  }
+}
